@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Homepage</title>
+  <style>
+  html {
+    scroll-behavior: smooth;
+  }
+  section{
+    height: 100vh;
+  }
+  section:first-of-type{
+    padding-top: 100px;
+  }
+  section:not(:first-of-type){
+    padding-top: 15rem;
+  }
+  .social-icon{
+    font-size: 100px;
+  }
+  .card-social{
+    width: 50%;
+  }
+  </style>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skill">Skill</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cv.pdf" target="_blank">CV</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img src="foto.jpg" class="img-thumbnail rounded-circle w-25" alt="">
+          <h1 class="mt-5">Aghus Setio Bakti</h1>
+        </div>
+        <div class="col-md-12 mt-5">
+          <p class="fs-5">Saya seseorang yang sangat tertarik di dunia Teknologi dan Seni seperti Desain Grafis, Pengembangan Aplikasi Web, Seni Lukis, Seni Ukir, Teknologi terbaru. Oleh karena itu saya sangat senang mengimplementasikan hal apa yang saya pelajari dan berbagi ilmu yang sudah saya ketahui ke orang lain, sehingga menjadi bermanfaat untuk diri sendiri dan untuk orang lain khususnya di dunia yang sama saya gemari.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skill">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="mb-4 text-center">Skill</h2>
+          <div class="card mx-auto" style="width: 18rem;">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">HTML</li>
+              <li class="list-group-item">CSS</li>
+              <li class="list-group-item">Javascript</li>
+              <li class="list-group-item">PHP</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-4 text-center">Pengalaman</h2>
+          <div class="card mx-auto" style="width: 18rem;">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Pernah Magang di PT. INOSOFT</li>
+              <li class="list-group-item">Pernah Kerja di PT. ITPI Technology</li>
+              <li class="list-group-item">Kontribusi Dashboard COVID 19</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="mb-5 text-center">Contact</h2>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="card card-social m-auto">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"> <a href="https://id.linkedin.com/in/aghus-setio-bakti-5434111b4" target="_blank" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin"></i></a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="card card-social m-auto">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"> <a href="https://github.com/aghussb" target="_blank" class="social-icon" title="Github" style="color: black;"> <i class="fab fa-github"></i> </a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="card card-social m-auto">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"> <a href="mailto:aghussb03@gmail.com" target="_blank" class="social-icon" title="Email" style="color: red;"> <i class="fa fa-envelope"></i> </a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
